@@ -1,0 +1,258 @@
+/* Atribuiçoes */
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* link que ainda não foi visitado */
+a:link 
+{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* link que foi visitado */
+a:visited 
+{
+    color: #FFFFFF;
+}
+
+/* mouse over */
+a:hover 
+{
+    color: #FFFFFF;
+}
+
+/* link selecionado */
+a:active 
+{
+    color: #FFFFFF;
+}
+
+a.contatos
+{
+    color: #000000;
+}
+
+/*ID'S*/
+#home
+{
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    background-image: url(../media/img/princ.png);
+    background-position: top;
+    width: 100%;
+}
+
+#sobre
+{
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    background-image: url(../media/img/telsobre.png);
+    background-position: center;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+#objetivos
+{
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    background-image: url(../media/img/telobjetivos.png);
+    background-position: center;
+    width: 100%;
+}
+
+#qualifica
+{
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    background-image: url(../media/img/qual.png);
+    background-position: center;
+    width: 100%;
+}
+
+#expe
+{
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    background-image: url(../media/img/exp.png);
+    background-position: center;
+    width: 100%;
+}
+
+#curiosidades
+{
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    background-image: url(../media/img/curi.png);
+    background-position: bottom;
+    width: 100%;
+}
+
+#card /*Fotos de cada pagina*/
+{
+    max-height: 80%;
+    max-width: 80%;
+    z-index: 999;
+}
+
+#social /*svgs social*/
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Classes */
+.bottom
+{
+    width: 100%;
+    text-align: center;
+    object-position: center;
+    position: absolute;
+    bottom: 40px;
+}
+
+.navbar
+{
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+    right: 3%;
+    z-index: 999;
+    height: 100%;
+    font-size: 2em;
+    list-style: none;
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+
+.navbar li
+{
+    background: #8F9491;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    margin-top: 10px;
+
+}
+
+.select
+{
+    transition: 0.6s;
+    background: url(../media/img/button.png) no-repeat !important;
+    border-radius: 0px;
+    background-size: contain;
+
+}
+
+.container
+{
+    padding-top: 100px;;
+    width: 90%;
+    margin-left: 10%;
+}
+
+.cards
+{
+    float: left;
+    position: relative;
+    max-width: 35%;
+    top: 11%;
+    left: 2%;
+    z-index: 999;
+}
+
+.socialmediafb
+{
+    position: absolute;
+    width: 2%;
+    bottom: 4px;
+    left: 21%;
+}
+
+.socialmedialkd
+{
+    position: absolute;
+    width: 2%;
+    bottom: 4px;
+    left: 39%;
+}
+
+.socialmediaout
+{
+    position: absolute;
+    width: 2%;
+    bottom: 4px;
+    left: 58%;
+}
+
+.box /* caixa de texto */
+{
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    background: #8F9491;
+    opacity: 0.8;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* Estilo de texto e fontes */
+@font-face
+{
+    font-family: couriernew;
+    src: url(../fonts/cour.ttf);
+}
+
+h1 /* titulo home */
+{
+	font-size: 45px;
+	font-family: "couriernew";
+    color:#FFFFFF
+}
+
+h2 /* menu do home */
+{
+	font-size: 20px;
+	font-family: "couriernew";
+    color:#FFFFFF;
+}
+
+h3 /* redes sociais e contato */
+{
+    position: absolute;
+    font-family: "couriernew";
+    font-size: 30px;
+    bottom: 10px;
+    padding-left: 10%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #000000;
+}
+
+.titulo
+{
+    color: black;
+    font-size: 25px
+}
+
+p
+{
+    text-align: justify;
+    font-family: "couriernew";
+    font-size: 22px;
+    color: #FFFFFF;
+    letter-spacing: -2px;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Victor Nunes</title>
+	<meta charset="UTF-8">
+    <link rel="shortcut icon" href="media/img/computer.png" type="image/x-icon" />
+	<link href="css/main.css" rel="stylesheet">
+    <!-- adicionar scroll suave na pagina Jquery-->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script> 
+    <script>
+        jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1200);
+        });
+        });
+    </script>
+    <script type="text/javascript" src="js/appl.js"></script> 
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="#home">&nbsp</a></li>
+        <li><a href="#sobre">&nbsp</a></li>
+        <li><a href="#objetivos">&nbsp</a></li>
+        <li><a href="#qualifica">&nbsp</a></li>
+        <li><a href="#expe">&nbsp</a></li>
+        <li><a href="#curiosidades">&nbsp</a></li>
+    </ul>        
+    <section id="home">
+        <div class="bottom">
+            <h1>Victor Nunes</h1>
+            <h2><a class="scroll" href="#sobre">Sobre</a> | <a class="scroll" href="#objetivos">Objetivos</a> | <a class="scroll" href="#qualifica">Qualificações</a> | <a class="scroll" href="#expe">Experiências</a> | <a class="scroll" href="#curiosidades">Curiosidades</a> | <a class="scroll" href="#curiosidades">Facebook</a> | <a class="scroll" href="#curiosidades">LinkedIn</a></h2>
+        </div>
+        <!-- class="scroll" ativa o scroll suave do jquery -->
+    </section>
+    <section id="sobre"> 
+        <div class="container">
+            <div class="cards">
+                <img src="media/img/sobreft.png" id="card">
+            </div>
+            <div class="box">
+                    <p class="titulo"><b>UM BREVE RESUMO</b></p><br />
+                    <p>Nascido em Belo Horizonte em 19 de Setembro de 1997 e atualmente discente do Bacharelado em Sistemas de Informação pela UFLA. Sou uma pessoa que teve interesse cedo pela computação e tecnologia, porém, somente no nível amador e de entusiasta. Tenho bastante interesse por diversas áreas da arte, como cinema, fotografia, artes visuais e musica, podendo me considerar um cara de gosto eclético, embora tenha inclinação para as vertentes eletronicas.</p><br />
+
+                    <p>Já fui praticante de diversas artes marciais e tenho uma paixão por praticar futebol embora não o faça a muito tempo. No meu tempo livre costumo escutar musica, assistir series com temáticas de terror, ficção cientifica e suspense, jogar e frequentar o reddit.</p><br />
+
+                    <!-- <p>Sou uma pessoa calma e embora tenha facilidade para me expressar e com relacionamento interpessoal, me considero um cara introspectivo mas não deixo que essa característica exerça uma barreira entre eu e meus objetivos pessoais e profissionais.</p> -->
+            </div>
+        </div>
+    </section>
+    <section id="objetivos">
+        <div class="container">
+            <div class="cards">
+                <img src="media/img/goals.png" id="card">
+            </div>
+            <div class="box">
+                <p class="titulo"><b>ONDE QUERO CHEGAR</b></p><br />
+                <p>• Atuar nos projetos de Front End e Back End, visando amplificar meu conhecimento e desenvolvimento profissional e pessoal.</p><br />
+                <p>• Tenho como objetivos, adquirir experiência, assim como desenvolver o trabalho em equipe.</p><br />
+                <p>• Desenvolver conhecimento sobre rede e infra estrutura para atuar com API. </p><br />
+            </div>
+        </div>    		
+    </section>
+    <section id="qualifica">
+            <div class="container">
+                <div class="cards">
+                    <img src="media/img/qualify.png" id="card">
+                </div>
+                <div class="box">
+                    <p class="titulo"><b>IDIOMA</b></p><br />
+                    <p>• <u>Inglês</u></p>
+                    <p>Leitura: Intermediário</p>
+                    <p>Escrita: Intermediário</p> 
+                    <p>Conversa: Intermediário</p><br />
+                    <p class="titulo"><b>LÍNGUAGENS</b></p><br />
+                    <p>• <u>C++</u> - Intermediário</p>
+                    <p>• <u>HTML5</u> - Básico</p>
+                    <p>• <u>JS5</u> - Básico</p>
+                    <p>• <u>CSS3</u> - Básico</p><br />
+                    <p class="titulo"><b>PROGRAMAS E PACOTES</b></p><br />
+                    <p>• <u>Photoshop</u> - Intermediário</p>
+                    <p>• <u>Illustrator</u> - Básico</p>
+                    <p>• <u>Office</u> - Intermediário</p>
+                    <p>• <u>AutoCad</u> - Avançado</p>
+                    <p>• <u>SolidWorks</u> - Avançado</p>
+                </div>
+            </div>    		
+    </section>
+    <section id="expe">
+        <div class="container">
+            <div class="cards">
+                <img src="media/img/experien.png" id="card">
+            </div>
+            <div class="box">
+                <p class="titulo"><b>ACADÊMICA</b></p><br />
+                <p>• Técnico em Mecânica Industrial - CEFET-MG/CAMPUS I</p>
+                <p>• Certificado "Tolerância Geométrica e Redução de Custos" - CEFET-MG</p>
+                <p>• Gerenciamento Humano e Gestão da Qualidade - DEMAT/CEFET-MG</p>
+                <p>• Cursando Bacharelado em Sistemas de Informação - UFLA</p><br />
+                <p class="titulo"><b>PROFISSIONAL</b></p><br />
+                <p>Sem experiência comprovada até o momento</p>
+            </div>
+        </div>    		
+    </section>
+    <section id="curiosidades">
+        <div class="container">
+            <div class="cards">
+                <img src="media/img/curios.png" id="card">
+            </div>
+            <div class="box">
+            </div>
+            <div class="socialmediafb">
+                <img src="media/svg/fb.svg" id="social">
+            </div>
+            <div class="socialmedialkd">
+                <img src="media/svg/lin.svg" id="social">
+            </div>
+            <div class="socialmediaout">
+                <img src="media/svg/outlook.svg" id="social">
+            </div>
+        </div>            
+    	<h3><a class ="contatos" href="https://www.facebook.com/victornnunes">/victornnunes</a> &nbsp&nbsp&nbsp&nbsp <a class ="contatos" href="https://www.linkedin.com/in/victornnunees">/victornnunees</a> &nbsp&nbsp&nbsp&nbsp victornnunes@outlook.com.br</h3>
+    </section>
+</body>
+</html>
