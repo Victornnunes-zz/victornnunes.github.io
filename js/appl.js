@@ -10,23 +10,23 @@ $(document).ready(function()
 		{
 			pos = 1;
 		}
-		else if (distanciaTopo >= alturAtual && distanciaTopo < (2*alturAtual)-2)
+		else if (distanciaTopo >= alturAtual && distanciaTopo < (2*alturAtual))
 		{
 			pos = 2;
 		}
-		else if (distanciaTopo >= (2*alturAtual) && distanciaTopo < (3*alturAtual)-2)
+		else if (distanciaTopo >= (2*alturAtual) && distanciaTopo < (3*alturAtual))
 		{
 			pos = 3;
 		}
-		else if (distanciaTopo >= (3*alturAtual) && distanciaTopo < (4*alturAtual)-2)
+		else if (distanciaTopo >= (3*alturAtual) && distanciaTopo < (4*alturAtual))
 		{
 			pos = 4;
 		}
-		else if (distanciaTopo >= (4*alturAtual) && distanciaTopo < (5*alturAtual)-2)
+		else if (distanciaTopo >= (4*alturAtual) && distanciaTopo < (5*alturAtual)) //-2
 		{
 			pos = 5;
 		}
-		else 
+		else
 		{
 			pos = 6;
 		}

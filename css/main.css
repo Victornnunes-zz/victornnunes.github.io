@@ -106,8 +106,8 @@ a.contatos
 
 #social /*svgs social*/
 {
-    max-width: 100%;
-    max-height: 100%;
+    width: 8%;
+    margin-right: 10px;
 }
 
 /* Classes */
@@ -155,7 +155,9 @@ a.contatos
 
 .container
 {
-    padding-top: 100px;;
+    position: relative;
+    height: 90vh;
+    padding-top: 50px;
     width: 90%;
     margin-left: 10%;
 }
@@ -165,47 +167,30 @@ a.contatos
     float: left;
     position: relative;
     max-width: 35%;
-    top: 11%;
+    top: 20px;
     left: 2%;
     z-index: 999;
-}
-
-.socialmediafb
-{
-    position: absolute;
-    width: 2%;
-    bottom: 4px;
-    left: 21%;
-}
-
-.socialmedialkd
-{
-    position: absolute;
-    width: 2%;
-    bottom: 4px;
-    left: 39%;
-}
-
-.socialmediaout
-{
-    position: absolute;
-    width: 2%;
-    bottom: 4px;
-    left: 58%;
+    padding-bottom: 190px;
 }
 
 .box /* caixa de texto */
 {
-    text-align: right;
-    margin-left: auto;
-    margin-right: auto;
     width: 65%;
     background: #8F9491;
     opacity: 0.8;
     border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto; 
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
+}
+
+.rodape
+{
+    position: absolute;
+    bottom: 0.5%;
+    left: 55%;
 }
 
 /* Estilo de texto e fontes */
@@ -227,19 +212,6 @@ h2 /* menu do home */
 	font-size: 20px;
 	font-family: "couriernew";
     color:#FFFFFF;
-}
-
-h3 /* redes sociais e contato */
-{
-    position: absolute;
-    font-family: "couriernew";
-    font-size: 30px;
-    bottom: 10px;
-    padding-left: 10%;
-    left: 0;
-    right: 0;
-    text-align: center;
-    color: #000000;
 }
 
 .titulo
