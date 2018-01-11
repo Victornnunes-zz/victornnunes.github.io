@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Victor Nunes</title>
+	<meta charset="UTF-8">
+    <link rel="shortcut icon" href="media/img/computer.png" type="image/x-icon" />
+	<link href="css/main.css" rel="stylesheet">
+    <!-- adicionar scroll suave na pagina Jquery-->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script> 
+    <script>
+        jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1200);
+        });
+        });
+    </script>
+    <script type="text/javascript" src="js/appl.js"></script> 
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="#home">&nbsp</a></li>
+        <li><a href="#sobre">&nbsp</a></li>
+        <li><a href="#objetivos">&nbsp</a></li>
+        <li><a href="#qualifica">&nbsp</a></li>
+        <li><a href="#expe">&nbsp</a></li>
+        <li><a href="#curiosidades">&nbsp</a></li>
+    </ul>        
+    <section id="home">
+        <div class="bottom">
+            <h1>Victor Nunes</h1>
+            <h2><a class="scroll" href="#sobre">Sobre</a> | <a class="scroll" href="#objetivos">Objetivos</a> | <a class="scroll" href="#qualifica">Qualificações</a> | <a class="scroll" href="#expe">Experiências</a> | <a class="scroll" href="#curiosidades">Curiosidades</a> | <a class="scroll" href="#curiosidades">Facebook</a> | <a class="scroll" href="#curiosidades">LinkedIn</a></h2>
+        </div>
+        <!-- class="scroll" ativa o scroll suave do jquery -->
+    </section>
+    <section id="sobre"> 
+        <div class="container">
+            <div class="cards">
+                <img src="media/img/sobreft.png" id="card">
+            </div>
+            <div class="box">
+                    <p class="titulo"><b>UM BREVE RESUMO</b></p><br />
+                    <p>Sou Victor Nunes, natural de Belo Horizonte, nascido em 19 de Setembro de 1997 e atualmente discente do Bacharelado em Sistemas de Informação pela Universidade Federal de Lavras (UFLA). Considero-me uma mistura das três coisas mais próximas a mim: computação - a tecnologia é algo que me despertou interesse cedo e, devido a isto, é minha opção profissional -, diversas áreas da arte - como cinema, fotografia, artes visuais e música - e a família - a qual sempre foi a minha estrutura e onde adquiri meus valores, o que me tornou alguém que se preocupa com o próximo e respeita os limites de cada um, visando o sucesso sempre.</p><br />
+                    <p>Tenho personalidade calma e embora tenha facilidade para me expressar e com relacionamento interpessoal, me considero um cara introspectivo; mas não deixo que essa característica exerça uma barreira entre mim e meus objetivos pessoais e profissionais.</p><br />
+            </div>
+        </div>
+    </section>
+    <section id="objetivos">
+        <div class="container">
+            <div class="cards">
+                <img src="media/img/goals.png" id="card">
+            </div>
+            <div class="box">
+                <p class="titulo"><b>ONDE QUERO CHEGAR</b></p><br />
+                <p>• Atuar nos projetos de Front End e Back End, visando amplificar meu conhecimento e desenvolvimento profissional e pessoal.</p><br />
+                <p>• Tenho como objetivos, adquirir experiência, assim como desenvolver o trabalho em equipe.</p><br />
+                <p>• Desenvolver conhecimento sobre rede e infra estrutura para atuar com API. </p><br />
+            </div>
+        </div>    		
+    </section>
+    <section id="qualifica">
+            <div class="container">
+                <div class="cards">
+                    <img src="media/img/qualify.png" id="card">
+                </div>
+                <div class="box">
+                    <p class="titulo"><b>IDIOMA</b></p><br />
+                    <p>• <u>Inglês</u></p>
+                    <p>Leitura: Intermediário</p>
+                    <p>Escrita: Intermediário</p> 
+                    <p>Conversa: Intermediário</p><br />
+                    <p class="titulo"><b>LÍNGUAGENS</b></p><br />
+                    <p>• <u>C++</u> - Intermediário</p>
+                    <p>• <u>HTML5</u> - Básico</p>
+                    <p>• <u>JS5</u> - Básico</p>
+                    <p>• <u>CSS3</u> - Básico</p><br />
+                    <p class="titulo"><b>PROGRAMAS E PACOTES</b></p><br />
+                    <p>• <u>Photoshop</u> - Intermediário</p>
+                    <p>• <u>Illustrator</u> - Básico</p>
+                    <p>• <u>Office</u> - Intermediário</p>
+                    <p>• <u>AutoCad</u> - Avançado</p>
+                    <p>• <u>SolidWorks</u> - Avançado</p>
+                </div>
+            </div>    		
+    </section>
+    <section id="expe">
+        <div class="container">
+            <div class="cards">
+                <img src="media/img/experien.png" id="card">
+            </div>
+            <div class="box">
+                <p class="titulo"><b>ACADÊMICA</b></p><br />
+                <p>• Técnico em Mecânica Industrial - CEFET-MG/CAMPUS I</p>
+                <p>• Certificado "Tolerância Geométrica e Redução de Custos" - CEFET-MG</p>
+                <p>• Gerenciamento Humano e Gestão da Qualidade - DEMAT/CEFET-MG</p>
+                <p>• Cursando Bacharelado em Sistemas de Informação - UFLA</p><br />
+                <p class="titulo"><b>PROFISSIONAL</b></p><br />
+                <p>Sem experiência comprovada até o momento</p>
+            </div>
+        </div>    		
+    </section>
+    <section id="curiosidades">
+        <div class="container">
+            <div class="cards">
+                <img src="media/img/curios.png" id="card">
+            </div>
+            <div class="box">
+                <p class="titulo"><b>E O QUE MAIS?</b></p><br />
+                <p>• Sou muito fã do Skrillex.</p>
+                <p>• Meu primeiro video game foi o Super Nintendo.</p>
+                <p>• Sou muito fã de esportes, principalmente futebol, artes marciais e musculação, apesar de estar a quase uns 2 anos sem praticar de forma séria qualquer um deles.</p>
+                <p>• Eu acredito veemente em aliens.</p>
+                <p>• Eu tenho miopia, astigmatismo e hipermetropia e não enxergo um palmo a minha frente sem óculos ou lente.</p>
+                <p>• Sou faixa Azul em Taekwondo e faixa vermelho ponta azul clara no Muay Thai.</p>
+                <p>• Meu filme preferido é Quebrando Regras.</p>
+                <p>• Chorei lendo Quem é você, Alasca? e assistindo Sempre ao seu lado.</p>
+                <p>• Tenho vontade de praticar tiro esportivo.</p>
+                <p>• Tenho a Síndrome do Pensamento Acelerado.</p>
+                <p>• Tenho vontade de conhecer a Austrália. </p>
+            </div>     
+        </div>
+        <div class="rodape">
+            <a class ="contatos" href="https://www.facebook.com/victornnunes"><img src="media/svg/fb.svg" id="social"></a>
+            <a class ="contatos" href="https://www.linkedin.com/in/victornnunees"><img src="media/svg/lin.svg" id="social"></a>
+        </div>
+               
+    </section>
+</body>
+</html>
