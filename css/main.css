@@ -106,7 +106,8 @@ a.contatos
 
 #social /*svgs social*/
 {
-    width: 8%;
+    padding: 2px;
+    max-width: 30px;
     margin-right: 10px;
 }
 
@@ -188,9 +189,13 @@ a.contatos
 
 .rodape
 {
+    text-align: center;
+    width: 90%;
     position: absolute;
-    bottom: 0.5%;
-    left: 55%;
+    bottom: 0px;
+    background: #FFFFFF;
+    opacity: 0.6;
+    margin-left: 10%;
 }
 
 /* Estilo de texto e fontes */
