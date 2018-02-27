@@ -1,128 +1,236 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-	<title>Victor Nunes</title>
-	<meta charset="UTF-8">
-    <link rel="shortcut icon" href="media/img/computer.png" type="image/x-icon" />
-	<link href="css/main.css" rel="stylesheet">
+  <head>
+    <link rel="icon" href="media/SVG/medicine.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="media/SVG/medicine.png" type="image/x-icon" />
+
+    <title>Meritus - Medicina Ocupacional</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:400,500" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/Footer-with-map.css">
+
     <!-- adicionar scroll suave na pagina Jquery-->
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script> 
     <script>
         jQuery(document).ready(function($) {
         $(".scroll").click(function(event){
         event.preventDefault();
-        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1200);
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
         });
         });
     </script>
-    <script type="text/javascript" src="js/appl.js"></script> 
-</head>
-<body>
-    <ul class="navbar">
-        <li><a href="#home">&nbsp</a></li>
-        <li><a href="#sobre">&nbsp</a></li>
-        <li><a href="#objetivos">&nbsp</a></li>
-        <li><a href="#qualifica">&nbsp</a></li>
-        <li><a href="#expe">&nbsp</a></li>
-        <li><a href="#curiosidades">&nbsp</a></li>
-    </ul>        
-    <section id="home">
-        <div class="bottom">
-            <h1>Victor Nunes</h1>
-            <h2><a class="scroll" href="#sobre">Sobre</a> | <a class="scroll" href="#objetivos">Objetivos</a> | <a class="scroll" href="#qualifica">Qualificações</a> | <a class="scroll" href="#expe">Experiências</a> | <a class="scroll" href="#curiosidades">Curiosidades</a> | <a class="scroll" href="#curiosidades">Social</a></h2>
+
+  </head>
+  <body>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand">Meritus</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSite">
+
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#banner">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#services">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#about">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#contact">Contatos</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Social</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Facebook</a>
+                            <a class="dropdown-item" href="#">LinkedIn</a>
+                            <a class="dropdown-item" href="#">Github</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
         </div>
-        <!-- class="scroll" ativa o scroll suave do jquery -->
-    </section>
-    <section id="sobre"> 
+
+    </nav>
+
+    <main id="banner" class="first-header">
         <div class="container">
-            <div class="cards">
-                <img src="media/img/sobreft.png" id="card">
-            </div>
-            <div class="box">
-                    <p class="titulo"><b>UM BREVE RESUMO</b></p><br />
-                    <p>Sou Victor Nunes, natural de Belo Horizonte, nascido em 19 de Setembro de 1997 e atualmente discente do Bacharelado em Sistemas de Informação pela Universidade Federal de Lavras (UFLA). Considero-me uma mistura das três coisas mais próximas a mim: computação - a tecnologia é algo que me despertou interesse cedo e, devido a isto, é minha opção profissional -, diversas áreas da arte - como cinema, fotografia, artes visuais e música - e a família - a qual sempre foi a minha estrutura e onde adquiri meus valores, o que me tornou alguém que se preocupa com o próximo e respeita os limites de cada um, visando o sucesso sempre.</p><br />
-                    <p>Tenho personalidade calma e embora tenha facilidade para me expressar e com relacionamento interpessoal, me considero um cara introspectivo; mas não deixo que essa característica exerça uma barreira entre mim e meus objetivos pessoais e profissionais.</p><br />
-            </div>
+
+                <div class="row">
+        
+                    <div class="col-xs-12 mx-auto">
+                        <h1 class="text-center">MERITUS</h1>
+                        <h2 class="text-center" style="color:white">Medicina Ocupacional</h2>
+                    </div>
+        
+                </div>
+        
         </div>
+    </main>
+
+    <section id="services" class="second-header">
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-xs-12 mx-auto">
+                    <h2 class="text-center">Serviços</h2>
+                    <p class="text-center">Lorem ipsum dm.</p>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                    <div id="cards" class="card col-xs-12 col-sm-12 col-md-3 col-lg-3 mx-auto mb-3" style="width: 20rem;">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card-block">
+                              <h4 class="card-title">Card title</h4>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                    </div>
+
+                    <div id="cards" class="card col-xs-12 col-sm-12 col-md-3 col-lg-3 mx-auto mb-3" style="width: 20rem;">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card-block">
+                              <h4 class="card-title">Card title</h4>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                    </div>
+
+                    <div id="cards" class="card col-xs-12 col-sm-12 col-md-3 col-lg-3 mx-auto mb-3" style="width: 20rem;">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card-block">
+                              <h4 class="card-title">Card title</h4>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                    </div>
+
+
+            </div>
+
+            <div class="row">
+
+                    <div id="cards" class="card col-xs-12 col-sm-12 col-md-3 col-lg-3 mx-auto mb-3" style="width: 20rem;">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card-block">
+                              <h4 class="card-title">Card title</h4>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                    </div>
+
+                    <div id="cards" class="card col-xs-12 col-sm-12 col-md-3 col-lg-3 mx-auto mb-3" style="width: 20rem;">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card-block">
+                              <h4 class="card-title">Card title</h4>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                    </div>
+
+                    <div id="cards" class="card col-xs-12 col-sm-12 col-md-3 col-lg-3 mx-auto mb-3" style="width: 20rem;">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card-block">
+                              <h4 class="card-title">Card title</h4>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                    </div>
+
+            </div>
+
+        </div>
+
     </section>
-    <section id="objetivos">
+
+    <section id="about" class="first-header">
         <div class="container">
-            <div class="cards">
-                <img src="media/img/goals.png" id="card">
+    
+            <div class="row">
+    
+                <div class="col-xs-12 mx-auto">
+                    <h2 class="text-center">Quem somos</h2>
+                    <p class="text-center">fsdf</p>
+                </div>
+    
             </div>
-            <div class="box">
-                <p class="titulo"><b>ONDE QUERO CHEGAR</b></p><br />
-                <p>• Atuar nos projetos de Front End e Back End, visando amplificar meu conhecimento e desenvolvimento profissional e pessoal.</p><br />
-                <p>• Tenho como objetivos, adquirir experiência, assim como desenvolver o trabalho em equipe.</p><br />
-                <p>• Desenvolver conhecimento sobre rede e infra estrutura para atuar com API. </p><br />
-            </div>
-        </div>    		
+    
+        </div>
+    
     </section>
-    <section id="qualifica">
+
+    <section id="contact" class="second-header">
+        <div class="container">
+        
+            <div class="row">
+        
+                <div class="col-xs-12">
+                        <h2 class="text-center">Contatos</h2>
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel egestas libero. Aliquam ac varius turpis. Quisque enim nibh, condimentum id velit laoreet, molestie sagittis turpis. Donec cursus et urna eget commodo. Quisque bibendum dapibus nisi a interdum. Cras eu justo libero. Nulla sagittis nibh ut ligula vestibulum pulvinar. Morbi suscipit placerat blandit. Nunc convallis sem eu ligula egestas lacinia. Vestibulum non tellus nulla. Duis euismod aliquam quam id dictum. Phasellus quam odio, euismod eu nisl eu, placerat condimentum ex. Fusce pretium, metus sit amet elementum volutpat, nunc est laoreet mauris, in molestie eros erat nec nisl. Morbi neque elit, volutpat id eros ornare, iaculis iaculis nibh. Maecenas quis diam lacus. Sed facilisis consectetur vestibulum.</p>
+                </div>
+        
+            </div>
+        
+        </div>
+
+    </section>
+
+    <footer id="myFooter">
             <div class="container">
-                <div class="cards">
-                    <img src="media/img/qualify.png" id="card">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3>Como nos encontrar</h3>
+                    </div>
+                    <div class="row">
+
+                    </div>
                 </div>
-                <div class="box">
-                    <p class="titulo"><b>IDIOMA</b></p><br />
-                    <p>• <u>Inglês</u></p>
-                    <p>Leitura: Intermediário</p>
-                    <p>Escrita: Intermediário</p> 
-                    <p>Conversa: Intermediário</p><br />
-                    <p class="titulo"><b>LÍNGUAGENS</b></p><br />
-                    <p>• <u>C++</u> - Intermediário</p>
-                    <p>• <u>HTML5</u> - Básico</p>
-                    <p>• <u>JS5</u> - Básico</p>
-                    <p>• <u>CSS3</u> - Básico</p><br />
-                    <p class="titulo"><b>PROGRAMAS E PACOTES</b></p><br />
-                    <p>• <u>Photoshop</u> - Intermediário</p>
-                    <p>• <u>Illustrator</u> - Básico</p>
-                    <p>• <u>Office</u> - Intermediário</p>
-                    <p>• <u>AutoCad</u> - Avançado</p>
-                    <p>• <u>SolidWorks</u> - Avançado</p>
-                </div>
-            </div>    		
-    </section>
-    <section id="expe">
-        <div class="container">
-            <div class="cards">
-                <img src="media/img/experien.png" id="card">
+                <!-- Here we use the Google Embed API to show Google Maps. -->
+                <!-- In order for this to work in your project you will need to generate a unique API key.  -->
+                <iframe id="map-container" frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJOwg_06VPwokRYv534QaPC8g&key=AIzaSyBdJm9Amm4KALkKlZObWn40dcpRyH119zg" >
+                </iframe>
             </div>
-            <div class="box">
-                <p class="titulo"><b>ACADÊMICA</b></p><br />
-                <p>• Técnico em Mecânica Industrial - CEFET-MG/CAMPUS I</p>
-                <p>• Certificado "Tolerância Geométrica e Redução de Custos" - CEFET-MG</p>
-                <p>• Gerenciamento Humano e Gestão da Qualidade - DEMAT/CEFET-MG</p>
-                <p>• Cursando Bacharelado em Sistemas de Informação - UFLA</p><br />
-                <p class="titulo"><b>PROFISSIONAL</b></p><br />
-                <p>Sem experiência comprovada até o momento</p>
+            <div class="social-networks">
+                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
             </div>
-        </div>    		
-    </section>
-    <section id="curiosidades">
-        <div class="container">
-            <div class="cards">
-                <img src="media/img/curios.png" id="card">
+            <div class="footer-copyright">
+                <p class="rod">Designed by <a href="http://www.linkedin.com/in/victornnunees" target="_blank">Victor Nunes</a> </p>
             </div>
-            <div class="box">
-                <p class="titulo"><b>E O QUE MAIS?</b></p><br />
-                <p>• Sou muito fã do Skrillex.</p>
-                <p>• Meu primeiro video game foi o Super Nintendo.</p>
-                <p>• Sou muito fã de esportes, principalmente futebol, artes marciais e musculação, apesar de estar a quase uns 2 anos sem praticar de forma séria qualquer um deles.</p>
-                <p>• Eu acredito veemente em aliens.</p>
-                <p>• Eu tenho miopia, astigmatismo e hipermetropia e não enxergo um palmo a minha frente sem óculos ou lente.</p>
-                <p>• Sou faixa Azul em Taekwondo e faixa vermelho ponta azul clara no Muay Thai.</p>
-                <p>• Meu filme preferido é Quebrando Regras.</p>
-                <p>• Chorei lendo Quem é você, Alasca? e assistindo Sempre ao seu lado.</p>
-                <p>• Tenho vontade de praticar tiro esportivo.</p>
-                <p>• Tenho a Síndrome do Pensamento Acelerado.</p>
-                <p>• Tenho vontade de conhecer a Austrália. </p>
-            </div>     
-        </div>
-        <div class="rodape">
-            <a class ="contatos" href="https://www.facebook.com/victornnunes" target="_blank"><img src="media/svg/fb.svg" id="social"></a>
-            <a class ="contatos" href="https://www.linkedin.com/in/victornnunees" target="_blank"><img src="media/svg/lin.svg" id="social"></a>
-        </div>
-    </section>
-</body>
+        </footer>
+        
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script> 
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>   
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>  
+
+
+    </body>
 </html>
