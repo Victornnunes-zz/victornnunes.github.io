@@ -71,6 +71,16 @@ h4 {
     font-size: 15px;
 }
 
+.parallax-text {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: "introRegular";
+    font-size: 40px;
+    color: #F0F0F0;
+}
+
 .footer-text {
     padding-top: 100px;
     padding-bottom: 80px;
@@ -212,7 +222,7 @@ input:checked ~ label .hamburguer:after {
 .firstParallax-banner {
     background-image: url(../../media/images/firstParallax.jpg);
     background-size: auto;
-    height: 50vh;
+    height: 30%;
     width: 99vw;
     background-attachment: fixed;
     background-position: center;
@@ -230,7 +240,7 @@ input:checked ~ label .hamburguer:after {
 .parallax-banner {
     background-image: url(../../media/images/parallax.jpg);
     background-size: auto;
-    height: 50vh;
+    height: 30%;
     width: 99vw;
     background-attachment: fixed;
     background-position: center;
