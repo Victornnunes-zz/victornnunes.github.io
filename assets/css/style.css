@@ -279,7 +279,21 @@ input:checked ~ label .hamburguer:after {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 415px) {
+    .principal {
+        opacity: 1.0;
+    }
+
+    .hamburguer {
+        z-index: 999;
+    }
+
+    .menu-lateral {
+        width: 100%;
+        opacity: 1.0;
+        z-index: 998;
+    }
+
     .footer {
         height: 100vh;
     }
