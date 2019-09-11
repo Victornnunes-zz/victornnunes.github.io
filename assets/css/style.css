@@ -57,6 +57,14 @@ h3 {
     color:#000;
 }
 
+.body-text-title {
+    font-size: 20px;
+}
+
+.body-text {
+    font-size: 15px;
+}
+
 .footer-text {
     padding-top: 100px;
     padding-bottom: 80px;
@@ -188,6 +196,7 @@ input:checked ~ label .hamburguer:after {
     width: 99vw;
     background-color: #F0F0F0;
 }
+
 
 .parallax {
     max-width: 99vw;
