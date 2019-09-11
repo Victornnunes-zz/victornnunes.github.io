@@ -5,9 +5,20 @@ jQuery(document).ready(function($) {
     });
 });
 
-$(document).ready(function() {
-    $('#menu-lateral').click(function () { return false; });
-    $().click(function () { 
-        $('#menu-lateral').hide()
-    });
-});
+var interacao = 1;
+
+function Menu() {
+    let valor = document.getElementById("menu-hamburguer").value;
+    if (valor === "on"){
+       interacao++;
+       abreFechaMenu(interacao);
+    }
+}
+
+function abreFechaMenu(retorno) {
+    if (retorno % 2 == 0){
+        document.getElementById("menu-lateral").style.visibility = 'visible';
+    } else {
+        document.getElementById("menu-lateral").style.visibility = 'hidden';
+    }
+}

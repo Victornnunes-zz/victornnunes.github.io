@@ -124,6 +124,7 @@ input:checked ~ label .hamburguer:after {
 }
 
 .hamburguer {
+    z-index: 999;
     position: relative;
     display: block;
     background: #000;
@@ -161,11 +162,11 @@ input:checked ~ label .hamburguer:after {
     background-color: #FFFF;
     opacity: 0.7;
     padding: 50px;
+    visibility: hidden;
 }
 
 .menu-box {
     padding-top: 30px;
-
 }
 
 .contact-box {
