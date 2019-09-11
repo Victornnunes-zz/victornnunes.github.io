@@ -112,6 +112,7 @@ input:checked ~ label .hamburguer:after {
     top: 10px;
     left: 10px;
     opacity: 0.7;
+    cursor: pointer;
 }
 
 .hamburguer {
@@ -232,6 +233,10 @@ input:checked ~ label .hamburguer:after {
     background-color: #1A1A1A;
     height: 50vh;
     width: 99vw;
+}
+
+.footer-contact {
+    margin-bottom: 30px;
 }
 
 .separator {
