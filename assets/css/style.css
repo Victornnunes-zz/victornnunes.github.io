@@ -159,6 +159,12 @@ input:checked ~ label .hamburguer:after {
 
 }
 
+.contact-box {
+    position: absolute;
+    bottom: 50px;
+    left: 1%;
+}
+
 .principal {
     background-image: url(../../media/images/home.jpeg);
     background-size: auto;
