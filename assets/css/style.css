@@ -51,11 +51,10 @@ h2 {
     color:#000;
 }
 
-.title {
-    font-family: 'Source Serif Pro', serif;
-    font-weight: 700;
-    font-size: 70px;
-    color:#151515;
+h3 {
+    font-size: 2vh;
+	font-family: "introRegular";
+    color:#000;
 }
 
 .footer-text {
@@ -63,22 +62,19 @@ h2 {
     padding-bottom: 80px;
     padding-left: 0px;
     padding-right: 0px;
-    font-family: 'Source Serif Pro', serif;
-    font-weight: 600;
-    font-size: 60px;
+    font-family: "introRegular";
+    font-size: 40px;
     color: #F0F0F0;
 }
 
 .footer-menu {
-    font-family: 'Heebo', sans-serif;
-    font-weight: 500;
+    font-family: "introRegular";
     font-size: 15px;
     color:#F0F0F0;
 }
 
 .register {
-    font-family: 'Heebo', sans-serif;
-    font-weight: 100;
+    font-family: "introRegular";
     font-size: 12px;
     color:#F0F0F0;
 }
@@ -105,8 +101,9 @@ input:checked ~ label .hamburguer:after {
     transform: rotate(90deg);
     bottom: 0;
 }
- 
+
 .menu {
+    z-index: 999;
     background-color: #FFFF;
     border-radius: 50%;
     width: 60px;
@@ -145,6 +142,21 @@ input:checked ~ label .hamburguer:after {
 
 .hamburguer:after {
     bottom: -10px;
+}
+
+.menu-lateral {
+    top: 0px;
+    position: fixed;
+    width: 20vw;
+    height: 100vh;
+    background-color: #FFFF;
+    opacity: 0.7;
+    padding: 50px;
+}
+
+.menu-box {
+    padding-top: 30px;
+
 }
 
 .principal {
