@@ -42,13 +42,13 @@ a:active {
 h1 {
     font-size: 10vh;
 	font-family: "intro";
-    color:#FFFFFF;
+    color:#000;
 }
 
 h2 {
     font-size: 3vh;
 	font-family: "introRegular";
-    color:#FFFFFF;
+    color:#000;
 }
 
 .title {
